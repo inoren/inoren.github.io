@@ -1,8 +1,16 @@
+
 @charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,200,300,400');
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$ff-one: 'Montserrat', sans-serif !default;
+$ff-two: 'Montserrat Alternates', sans-serif !default;
+
+$base-font-family: 'Lato', sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -10,7 +18,7 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       rgb(155, 107, 107) !default;
+$text-color:       rgb(192, 147, 147) !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
@@ -46,6 +54,5 @@ $on-laptop:        800px !default;
 // Import partials.
 @import
   "./base",
-  "./layout",
-  "./syntax-highlighting"
+  "./layout" 
 ;

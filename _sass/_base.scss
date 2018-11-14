@@ -181,6 +181,9 @@ pre {
   margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
+  background-color: black;
+  display: block;
+  float: left;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
@@ -251,4 +254,13 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+h1 {
+  font-family: $ff-two;
+  font-weight: 100;
+}
+h2 {
+  font-family: $ff-one;
+  font-weight: 200;
 }
