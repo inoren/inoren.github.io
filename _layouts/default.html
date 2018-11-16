@@ -5,8 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My site</title>
+  <link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
-  {{ content }}
+  <div class="box">
+    <h1 class="site-title">Isabella Norén</h1>
+    <nav >
+      <ul>
+    		<li><a class="post-link" href="/">Home</a></li>
+	      <li><a href="/about/">About me</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>  
+  <div class="other">
+    {{ content }}
+  </div>
+  <p class="other">testing</p>
 </body>
 </html>

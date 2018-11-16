@@ -1,8 +1,8 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: HOME
-layout: home
+title: Bella
+layout: default
 ---
 <h1> {{ page.title }} </h1>
 
