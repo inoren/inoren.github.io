@@ -52,16 +52,6 @@ main {
 
 
 /**
- * Images
- */
-img {
-  max-width: 100%;
-  vertical-align: middle;
-}
-
-
-
-/**
  * Figures
  */
 figure > img {
@@ -77,16 +67,11 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
-  margin-left: $spacing-unit;
-}
 
-li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
+  ul {
+  margin-left: $spacing-unit;
+  list-style: none;
   }
-}
 
 
 
@@ -97,18 +82,23 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
+h1 {
+  font-family: $ff-two;
+  font-weight: 100;
+}
+h2 {
+  font-family: $ff-one;
+  font-weight: 200;
+}
+
 
 
 /**
  * Links
  */
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
-
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
 
   &:hover {
     color: $text-color;
@@ -138,34 +128,6 @@ blockquote {
 
   > :last-child {
     margin-bottom: 0;
-  }
-}
-
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
-}
-
-code {
-  padding: 1px 5px;
-}
-
-pre {
-  padding: 8px 12px;
-  overflow-x: auto;
-
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
   }
 }
 
@@ -224,43 +186,4 @@ pre {
   li + li {
     padding-top: 5px;
   }
-}
-
-
-
-/**
- * Tables
- */
-table {
-  margin-bottom: $spacing-unit;
-  width: 100%;
-  text-align: $table-text-align;
-  color: lighten($text-color, 18%);
-  border-collapse: collapse;
-  border: 1px solid $grey-color-light;
-  tr {
-    &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
-    }
-  }
-  th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
-  }
-  th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
-  }
-  td {
-    border: 1px solid $grey-color-light;
-  }
-}
-
-h1 {
-  font-family: $ff-two;
-  font-weight: 100;
-}
-h2 {
-  font-family: $ff-one;
-  font-weight: 200;
 }

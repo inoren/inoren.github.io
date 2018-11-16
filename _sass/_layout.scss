@@ -11,23 +11,12 @@
 }
 
 .site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  position: relative;
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
+  font-family: $ff-two;
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: $spacing-unit;
+  margin-left: $spacing-unit;
 }
-
-  .page-link {
-    color: $text-color;
-    display: block;
-  }
 
 
 /**
@@ -103,6 +92,7 @@
 /**
  * Page content
  */
+ 
 .other {
   margin-left: 300px;
   background-color: beige;
