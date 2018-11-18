@@ -4,10 +4,14 @@
 title: Bella
 layout: default
 ---
-<h1> {{ page.title }} </h1>
+<h1 class="page-title">{{ page.title }}</h1>
+
+<div class="page-content">
 
 this is a paragraff
 
 ## hello in h2
 
 # Test
+
+</div>

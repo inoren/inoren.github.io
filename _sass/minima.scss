@@ -7,8 +7,8 @@
 
 // Define defaults for each variable.
 
-$ff-one: 'Montserrat', sans-serif !default;
-$ff-two: 'Montserrat Alternates', sans-serif !default;
+$ff-one: 'Montserrat', sans-serif;
+$ff-two: 'Montserrat Alternates', sans-serif;
 
 $base-font-family: 'Lato', sans-serif !default;
 $base-font-size:   16px !default;
@@ -20,7 +20,7 @@ $spacing-unit:     30px !default;
 
 $text-color:       rgb(192, 147, 147) !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$brand-color:      rgb(36, 27, 27) !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
