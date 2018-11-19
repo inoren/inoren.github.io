@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bellas Blog
+title: My Blog
 permalink: /blog/
 ---
 
