@@ -1,0 +1,12 @@
+/* TEAM */
+Developer: Isabella Norén
+Mail: in222gj@student.lnu.se
+Location: Stockholm, Sweden
+
+
+
+/* SITE */
+Site URL: http://inoren.github.io
+Standards: HTML5, CSS3
+Components: Jekyll
+Software: Visual Studio Code, Docker
