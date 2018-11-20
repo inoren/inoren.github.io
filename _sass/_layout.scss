@@ -4,7 +4,7 @@
 
 .site-title {
   font-family: $ff-two;
-  font-size: 30px;
+  @include relative-font-size(1.9);
   font-weight: 100;
   padding: $spacing-unit;
   margin-bottom: $spacing-unit;
@@ -17,7 +17,7 @@
   margin-top: 2 * $spacing-unit;
   margin-left: 2 * $spacing-unit;
   font-weight: 100;
-  font-size: 50px;
+  @include relative-font-size(3.125);
 }
 
 
@@ -133,17 +133,19 @@
 /**
  * Posts
  */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
 
 .post-title {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2);
   letter-spacing: -1px;
   line-height: 1;
+  margin-bottom: $spacing-unit;
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
   color: $brand-color;
+}
+
+.post-code {
+  font-family: $ff-code;
 }

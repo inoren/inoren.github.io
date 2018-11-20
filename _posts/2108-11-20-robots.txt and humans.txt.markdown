@@ -1,0 +1,32 @@
+---
+layout: page
+title:  "robots.txt and humans.txt"
+date:   2018-11-20 15:12 +0100
+categories: Examination 1
+---
+<div class="post-meta">
+<h3>robots.txt</h3>
+<p>robots.txt is a file that gives instructions about a site to web robots. It is put in the top-level directory of your web server. When a robot try to visit a URL it first checks for http://www.domainnam/robots.txt. On this site I have the following configuration: </p>
+
+<p class="post-code">User-agent: *</p>
+<p class="post-code">Disallow: /</p>
+
+<p>This tells the robots not to visit any pages on my site.</p>
+
+<h3>humans.txt</h3>
+<p>humans.txt is a file containing information about the people behind a site. You can list who contributed to building what and give thanks to people who made the site happen . This is how I configured  the humans.txt file for this site:</p>
+
+<p class="post-code">/* TEAM */</p>
+<p class="post-code">Developer: Isabella Norén</p>
+<p class="post-code">Mail: in222gj@student.lnu.se</p>
+<p class="post-code">Location: Stockholm, Sweden</p>
+
+
+<p class="post-code">/* SITE */</p>
+<p class="post-code">Site URL: http://inoren.github.io</p>
+<p class="post-code">Standards: HTML5, CSS3</p>
+<p class="post-code">Components: Jekyll</p>
+<p class="post-code">Software: Visual Studio Code, Docker</p>
+
+<p>I have included some information about the components, software and standards used for this site. </p>
+</div>
