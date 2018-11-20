@@ -102,10 +102,6 @@
   @include relative-font-size(2);
 }
 
-.post-list-heading {
-  @include relative-font-size(1.75);
-}
-
 .post-list {
   margin-left: 0;
   list-style: none;
@@ -148,4 +144,11 @@
 
 .post-code {
   font-family: $ff-code;
+}
+
+.post-signature {
+  font-family: $ff-two;
+  font-size: $small-font-size;
+  margin-bottom: 3 * $spacing-unit;
+  color: $text-color;
 }
