@@ -8,6 +8,8 @@ permalink: /about/
 
 <div class="page-content">
 
+<img class="page-image" src="/images/Me.jpg" alt="Me">
+
 <p>My name is Isabella Norén and . 
 
 I am 31 years old and live in Stockholm, Sweden.</p>
