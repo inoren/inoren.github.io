@@ -9,7 +9,7 @@ type: Information
 
 <div class="page-content">
 
-<img class="page-image" src="/images/Me.jpg" alt="Me">
+<img class="page-image" src="/images/Me.png" alt="Me">
 
 <p>My name is Isabella Norén, I'm 31 years old and live in Stockholm, Sweden.</p>
 <p>Curiosity drives me to find new interests and exiting things to do in life. Right now programming is the interest that takes up most of my time.</p>
