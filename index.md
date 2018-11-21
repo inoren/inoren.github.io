@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Home
 layout: default
+type: Infomation
 ---
 <h1 class="page-title">{{ page.title }}</h1>
 

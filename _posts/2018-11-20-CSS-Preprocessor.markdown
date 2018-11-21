@@ -3,6 +3,7 @@ layout: page
 title:  "CSS Preprocessor"
 date:   2018-11-20 17:09 +0100
 categories: Examination 1
+type: Post
 ---
 <div class="post-meta">
 <h3>My thoughts on pre-compiling the CSS</h3>

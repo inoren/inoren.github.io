@@ -3,6 +3,7 @@ layout: page
 title:  "robots.txt and humans.txt"
 date:   2018-11-20 15:12 +0100
 categories: Examination 1
+type: Post
 ---
 <div class="post-meta">
 <h3>robots.txt</h3>

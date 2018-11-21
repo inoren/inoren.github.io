@@ -2,6 +2,7 @@
 layout: default
 title: Contact
 permalink: /contact/
+type: Information
 ---
 
 <h1 class="page-title">{{ page.title }}</h1>

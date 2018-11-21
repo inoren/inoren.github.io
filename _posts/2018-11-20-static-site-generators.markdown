@@ -3,6 +3,7 @@ layout: page
 title:  "Static site generators"
 date:   2018-11-20 18:09 +0100
 categories: Examination 1
+type: Post
 ---
 <div class="post-meta">
 <h3>My thoughts on static site generators</h3>

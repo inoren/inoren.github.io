@@ -1,0 +1,12 @@
+{% if page.title %}
+  <meta content="{{ page.title }}" property="og:title">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+{% endif %}
+{% if page.type %}
+  <meta content="{{ page.type }}" property="og:type">
+{% else %}
+  <meta content="article" property="og:type">
+{% endif %}
+  <meta content="{{ page.url }}" property="og:url">
+  <meta content="/images/Me.jpg" property="og:image">
