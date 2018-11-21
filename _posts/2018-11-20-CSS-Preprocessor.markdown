@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "CSS Preprocessor"
 date:   2018-11-20 17:09 +0100
 categories: Examination 1

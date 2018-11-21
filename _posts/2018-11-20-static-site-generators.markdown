@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Static site generators"
 date:   2018-11-20 18:09 +0100
 categories: Examination 1

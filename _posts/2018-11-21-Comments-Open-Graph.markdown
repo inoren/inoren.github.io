@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Comments and Open Graph"
 date:   2018-11-21 11:10 +0100
 categories: Examination 1
